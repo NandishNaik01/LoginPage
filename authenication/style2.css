@@ -18,7 +18,8 @@ body{
 }
 .wrapper{
     /* height: fit-content; */
-    width: 420px;
+    height: 600px;
+    width: fit-content;
     /* background: purple; */
     color: white;
     border-radius: 10px;
@@ -64,13 +65,8 @@ body{
     font-size: 20px;
 }
 
-.wrapper .remember{
-    display: flex;
-    justify-content: space-between;
-    font-size: 15px;
-    margin: -15px 0 15px;
-}
-.remember label input{
+
+.remember .checkbox{
     accent-color: white;
     text-decoration: none;
 }
@@ -93,11 +89,7 @@ body{
     color: black;
     font-weight: 600;
 }
-/* .wrapper .btn:hover{
-    transform: translateZ(50px);
-    color: grey;
-    
-} */
+
 
 .wrapper .donthaveact{
     font-size: 15px;
@@ -116,4 +108,7 @@ body{
 }
 .wrapper p a:hover{
     text-decoration: underline;
+}
+.checkbox{
+    font-size: 10px !important;
 }
