@@ -1,2 +1,4 @@
-MYmind : https://whimsical.com/java-full-stack-M1j8nDrfu2ecu8AJf5qV12
-PDF Drive : https://drive.google.com/file/d/1iqBL1ge5KWyeAw0zRPFcmRShPh-YWnys/view?pli=1
+open : https://github.com/NandishNaik01/LoginPage/
+Rewrite the Url as : https://github1s.com/NandishNaik01/LoginPage/
+
+and it will directly open in ur vs code
