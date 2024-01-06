@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(new2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
+.wrapper{
+    /* height: fit-content; */
+    height: 600px;
+    width: fit-content;
+    /* background: purple; */
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid white;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px white;
+    
+}
+.wrapper h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.wrapper .input-box{
+    width:100% ;
+    height:50px ;
+    /* background: salmon; */
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    /* font-size: 36px; */
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.remember .checkbox{
+    accent-color: white;
+    text-decoration: none;
+}
+.remember a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+
+
+.wrapper .donthaveact{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper p a{
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    
+}
+.wrapper p a:hover{
+    text-decoration: underline;
+}
+.checkbox{
+    font-size: 10px !important;
+}
