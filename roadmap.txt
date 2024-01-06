@@ -1,4 +1,4 @@
 open : https://github.com/NandishNaik01/LoginPage/
-Rewrite the Url as : https://1sgithub.com/NandishNaik01/LoginPage/
+Rewrite the Url as : https://github1s.com/NandishNaik01/LoginPage/
 
 and it will directly open in ur vs code
