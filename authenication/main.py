@@ -7,6 +7,10 @@ app.static_folder = 'static'
 def login():
     return render_template('login.html')
 
+@app.route("/")
+def Home():
+    return render_template('home.html')
+
 @app.route("/signup")
 def signup():
     return render_template('signup.html')
